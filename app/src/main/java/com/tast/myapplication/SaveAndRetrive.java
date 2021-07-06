@@ -102,6 +102,9 @@ public class SaveAndRetrive extends AppCompatActivity {
                     editor.commit();
 
 
+
+
+                    
                     String json1 = sharedpreferences.getString("Set", "");
                     if (json1.isEmpty()) {
                     } else {
